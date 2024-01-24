@@ -10,8 +10,7 @@ function generateQR(){
         imgBox.classList.add("show-img");
     }
     else{
-        /* qrImage.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCqLROK3HZMOi-8aauDabdfngqqHH20Cyquw&usqp=CAU"; */
-        
+        qrImage.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCqLROK3HZMOi-8aauDabdfngqqHH20Cyquw&usqp=CAU";
         qrText.classList.add('error');
         setTimeout(()=>{
             qrText.classList.remove('error');
